@@ -28,6 +28,13 @@
     "title": "Web Service"
   },
   {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"IN-MEMORY&amp;lt;br&amp;gt;CACHE\" style=\"shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"100\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 100,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Cache"
+  },
+  {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"DATABASE\" style=\"shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 60,
     "h": 80,
@@ -40,13 +47,6 @@
     "h": 90,
     "aspect": "fixed",
     "title": "Database Cluster"
-  },
-  {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"IN-MEMORY&amp;lt;br&amp;gt;CACHE\" style=\"shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"120\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 120,
-    "h": 80,
-    "aspect": "fixed",
-    "title": "Cache"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"OBJECT STORE\" style=\"shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
