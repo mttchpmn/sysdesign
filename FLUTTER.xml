@@ -35,6 +35,13 @@
     "title": "Data Layer"
   },
   {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"CONTAINER\" style=\"swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"500\" height=\"210\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 500,
+    "h": 210,
+    "aspect": "fixed",
+    "title": "Container"
+  },
+  {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"FRAME\" style=\"shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#bac8d3;strokeColor=#23445d;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"300\" height=\"200\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 300,
     "h": 200,
