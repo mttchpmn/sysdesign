@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T22:55:31.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.11" etag="RGltLZFVLxAWpt3h4hN0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T23:11:15.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Ef1G99ClbhYIbr_jzPN-" version="22.1.11" type="github">
   <diagram name="Page-1" id="AA9qZgwIEIOWjqdTrzMb">
-    <mxGraphModel>
+    <mxGraphModel dx="1961" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-3" value="POST locationUpdate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aEaLfs0wbvGp0ijpD5cG-1" target="aEaLfs0wbvGp0ijpD5cG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-1" value="USER" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="374" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aEaLfs0wbvGp0ijpD5cG-2" target="aEaLfs0wbvGp0ijpD5cG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-2" value="LOAD BALANCER" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="364" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-4" value="CHANNEL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="660" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aEaLfs0wbvGp0ijpD5cG-5" target="aEaLfs0wbvGp0ijpD5cG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-9" value="1 User to many channels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aEaLfs0wbvGp0ijpD5cG-8">
+          <mxGeometry x="-0.1864" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-5" value="USER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="560" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-6" value="CHANNEL UPDATE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="695" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-7" value="CHANNEL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="695" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="369" y="360" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="aEaLfs0wbvGp0ijpD5cG-10">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-12" value="WORKERS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="aEaLfs0wbvGp0ijpD5cG-10">
+          <mxGeometry x="10" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.483;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aEaLfs0wbvGp0ijpD5cG-12" target="aEaLfs0wbvGp0ijpD5cG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-15" value="1. Get all channel that user is part of&lt;br&gt;2. Get all other members of channels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aEaLfs0wbvGp0ijpD5cG-14">
+          <mxGeometry x="-0.4648" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-16" value="LOCATION UPDATE DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="590" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aEaLfs0wbvGp0ijpD5cG-11" target="aEaLfs0wbvGp0ijpD5cG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-18" value="Store update in DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aEaLfs0wbvGp0ijpD5cG-17">
+          <mxGeometry x="0.1392" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-19" value="IN-MEMORY&lt;br&gt;CACHE" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aEaLfs0wbvGp0ijpD5cG-12" target="aEaLfs0wbvGp0ijpD5cG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEaLfs0wbvGp0ijpD5cG-21" value="Create&amp;nbsp; update in user caches for location feeds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aEaLfs0wbvGp0ijpD5cG-20">
+          <mxGeometry x="0.272" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
